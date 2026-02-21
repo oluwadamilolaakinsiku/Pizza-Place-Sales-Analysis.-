@@ -13,13 +13,13 @@
 ​2. Daily Revenue Patterns 
 
 ​Friday is the highest-grossing day of the week. Revenue remains strong through Saturday but dips significantly on Sunday, suggesting a need for weekend-specific marketing or family-bundle promotions.
-![Daily Sales](image_2.png)
+![Daily Sales](image 2.png)
 
 
 ​3. Monthly Sales Seasonality 
 
 ​Sales are remarkably stable throughout the year, with slight peaks in May and July. This indicates a consistent customer base that does not fluctuate heavily with seasons.
-![Monthly Sales](image_3.png)
+![Monthly Sales](image 3.png)
 
 
 ​4. Top 5 Bestselling Pizzas 
