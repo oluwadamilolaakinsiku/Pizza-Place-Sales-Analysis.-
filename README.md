@@ -11,6 +11,7 @@ Clone this repository:
 git clone https://github.com/YOUR_USERNAME/Pizza-Place-Sales-Analysis.git
 
 Install the required libraries:
+
 pip install pandas matplotlib seaborn
 
 Open the Pizza_Sales_Analysis.ipynb file in Jupyter Notebook or VS Code to view the full analysis.
