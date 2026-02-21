@@ -1,20 +1,38 @@
-🍕 Pizza Place Sales Analysis ​📌 Project Overview 
+🍕 ​🍕 Pizza Place Sales Performance Analysis ​📌 Executive Summary 
 
-​This project provides a comprehensive analysis of a year’s worth of sales data from a fictitious pizza place. The dataset includes details on orders, pizza types, sizes, quantities, prices, and ingredients. The goal of this analysis is to uncover key sales trends, identify peak operational hours, and evaluate the performance of different menu items to drive data-backed business recommendations.
+​This project analyzes a year's worth of sales data from a fictitious pizza restaurant to identify growth opportunities, peak operational times, and menu performance. By merging datasets covering orders, pizza specifications, and ingredients, we generated actionable insights to optimize staffing and inventory.
 
-![Pizza Sales Analysis Charts](pizza_analysis_plots..png)
+​🚀 Key Business Insights
 
-​📊 Key Business Metrics ​Total Revenue: $817,860.05 ​Total Pizzas Sold: 49,574 ​Total Orders placed: 21,350 ​Average Order Value: $38.31 ​Menu Diversity: 32 Unique Pizza Types ​🚀 Key Insights ​1. Sales Performance by Time ​Peak Hours: The restaurant experiences two main rushes: Lunch (12:00 PM - 1:00 PM) and Dinner (5:00 PM - 7:00 PM). Staffing should be optimized for these windows. ​Top Day: Friday is the busiest day of the week, generating the highest revenue ($136,073.90). ​Slowest Day: Sunday has the lowest sales volume, representing an opportunity for targeted weekend promotions. ​2. Product Performance ​The Bestsellers: The Classic Deluxe Pizza, Barbecue Chicken Pizza, and Hawaiian Pizza are the top three favorites by volume. ​Underperformers: The Brie Carre Pizza and Mediterranean Pizza have the lowest sales. A menu review is recommended to decide whether to revamp or replace these items. ​3. Monthly Trends ​Sales remain relatively stable throughout the year, with slight peaks in July and May. There is no significant seasonal drop, indicating a loyal customer base. ​🛠️ Tech Stack & Tools ​Language: Python ​Libraries: * Pandas: For data cleaning and manipulation. ​Matplotlib & Seaborn: For data visualization. ​Jupyter Notebook: For interactive development and documentation.
-​📁 Project Structure ​Pizza_Sales_Analysis.ipynb: The main Jupyter Notebook containing the Python code and step-by-step analysis. ​data/: Folder containing the four original CSV files (orders, order_details, pizzas, pizza_types). ​pizza_analysis_plots.png: Exported charts showing the key findings.
-​⚙️ How to Run :
-Clone this repository:
-git clone https://github.com/YOUR_USERNAME/Pizza-Place-Sales-Analysis.git
+​1. Hourly Sales Trends (Peak Times) 
 
-Install the required libraries:
-
-pip install pandas matplotlib seaborn
-
-Open the Pizza_Sales_Analysis.ipynb file in Jupyter Notebook or VS Code to view the full analysis.
+​The restaurant experiences two primary "rushes." The lunch rush (12:00 PM – 1:00 PM) and the dinner rush (5:00 PM – 7:00 PM). Staffing should be prioritized during these windows to ensure fast service.
+![Hourly Sales](download.png)
 
 
+​2. Daily Revenue Patterns 
 
+​Friday is the highest-grossing day of the week. Revenue remains strong through Saturday but dips significantly on Sunday, suggesting a need for weekend-specific marketing or family-bundle promotions.
+![Daily Sales](image_2.png)
+
+
+​3. Monthly Sales Seasonality 
+
+​Sales are remarkably stable throughout the year, with slight peaks in May and July. This indicates a consistent customer base that does not fluctuate heavily with seasons.
+![Monthly Sales](image_3.png)
+
+
+​4. Top 5 Bestselling Pizzas 
+
+​The Classic Deluxe Pizza and the Barbecue Chicken Pizza lead the menu in popularity. These "hero products" should be featured prominently in advertisements.
+![Top Pizzas](image_4.png)
+
+​5. Underperforming Menu Items (Bottom 5) 
+
+​The Brie Carre Pizza is the lowest-selling item by a wide margin. Management should consider whether to retire this item or re-brand it to reduce inventory waste.
+![Bottom Pizzas](image_5.png)
+
+
+​🛠️ Technical Implementation ​Data Merging: Joined orders, order_details, pizzas, and pizza_types into a single analytical dataframe. ​Cleaning: Handled date/time formatting and calculated total_price (Quantity × Price). ​Visuals: Generated using Seaborn and Matplotlib for high-impact storytelling.
+
+​📁 Repository Structure ​Pizza_Sales_Analysis.ipynb: Complete Python code and documentation. ​hourly_sales.png, daily_sales.png, etc.: Individual visual assets. ​datasets/: Original CSV files used for analysis. 
